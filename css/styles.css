@@ -1,3 +1,25 @@
+:root {
+  --first-color: rgb(31, 31, 87);
+  --second-color: rgb(189, 210, 223);
+  --third-color: rgb(84, 84, 146);
+  --default-font-family: "Poppins", sans-serif;
+}
 body {
-  background-color: rgb(189, 210, 223);
+  background-color: var(--second-color);
+}
+p {
+  margin: 1%;
+}
+.hero {
+  font-family: var(--default-font-family);
+  padding: 15%;
+  color: var(--first-color);
+  text-align: center;
+}
+.btn {
+  background-color: var(--third-color);
+  border-color: var(--second-color);
+  color: var(--second-color);
+  padding: 1.7%;
+  margin: 1%;
 }
